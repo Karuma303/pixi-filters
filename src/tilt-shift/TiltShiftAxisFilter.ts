@@ -40,9 +40,9 @@ export class TiltShiftAxisFilter extends Filter
         /** The strength of the blur gradient */
         gradientBlur: 600,
         /** The position to start the effect at. */
-        start: { x: 0, y: window.innerHeight / 2 },
+        start: { x: 0, y: 800 },
         /** The position to end the effect at. */
-        end: { x: 600, y: window.innerHeight / 2 },
+        end: { x: 600, y: 600 },
     };
 
     public uniforms: {
