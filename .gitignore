@@ -4,6 +4,7 @@ node_modules
 *.log
 docs
 dist
+lib
 deploy
 .DS_Store
 /out
